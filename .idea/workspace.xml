@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="52118034-0069-4ad7-9ff4-56751ee64dad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Talent_Link/src/components/page/MyFavor.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Talent_Link/src/components/page/MyFavor.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Talent_Link/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Talent_Link/vue.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Talent_Link" />
+  </component>
+  <component name="ProjectId" id="1XYwkDBUhrd7mw9LdhDBRIo6Ilf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Workspace\Talent_Link_App\templates" />
+      <recent name="E:\Workspace\Talent_Link_App\Talent_Link\static" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52118034-0069-4ad7-9ff4-56751ee64dad" name="Default Changelist" comment="" />
+      <created>1581236476991</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581236476991</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="254" y="85" width="1092" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581236820316">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="85" width="1092" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1581236820316" />
+    <state x="534" y="203" key="EnvironmentVariablesDialog" timestamp="1581236774259">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="534" y="203" key="EnvironmentVariablesDialog/0.0.1600.860@0.0.1600.860" timestamp="1581236774259" />
+    <state x="580" y="196" key="FileChooserDialogImpl" timestamp="1581236897003">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="196" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1581236897003" />
+    <state x="301" y="72" key="SettingsEditor" timestamp="1581323615954">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="72" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1581323615954" />
+    <state x="480" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1581344572764">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="480" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1581344572764" />
+  </component>
+</project>
