@@ -15,12 +15,28 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from mysite.views import index, search
-from django.views.generic import TemplateView #add
+from mysite.views import *
+from django.views.generic import TemplateView  # add
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     # path('test/', index),
-    # path('search/', search),
-    path('', TemplateView.as_view(template_name='index.html')),  # add
+    path('myTalent/api/deleteTalent', deleteTalent),
+    path('myTalent/api/allTalent', allTalent),
+    path('myTalent/api/updTalent', updTalent),
+    path('myTalent/api/updData', updData),
+    path('talentPool/api', talentPool),
+    path('', TemplateView.as_view(template_name='index.html')),  # add\
+    path('talentPool/api/upd_favor', updFavor),
+    path('myFavor/api/active', favorActive),
+    path('myFavor/api/inactive', favorInactive),
+    path('myFavor/api/removeFavor', removeFavor),
+    path('myFavor/api/restoreFavor', restoreFavor),
+    path('myFavor/api/removeFavorall', removeFavorall),
+    path('myFavor/api/emptyFavorall', emptyFavorall),
+    path('myFavor/api/admireTalent', admireTalent),
+    path('uploadTalent/api', uploadTalent),
+    path('downloadDoc/api', downloadDoc),
+
+
 ]

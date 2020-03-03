@@ -2,13 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52118034-0069-4ad7-9ff4-56751ee64dad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Talent_Link/src/components/page/MyFavor.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Talent_Link/src/components/page/MyFavor.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Talent_Link/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Talent_Link/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Talent_Backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Talent_Backend/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Talent_Backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Talent_Backend/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MongoDB - @localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MongoDB - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="talent: schema" type="f0f64354:MongoImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MongoDB - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="talent: schema" type="f0f64354:MongoImplModel$Schema" />
+        <item name="my_talent: table" type="531e99d1:MongoImplModel$Table" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -18,7 +52,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Talent_Link" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XYwkDBUhrd7mw9LdhDBRIo6Ilf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -30,16 +64,54 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mongo" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/manage.py" />
+    <property name="settings.editor.selected.configurable" value="preferences.mongoOptions" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Workspace\Talent_Link_App\templates" />
       <recent name="E:\Workspace\Talent_Link_App\Talent_Link\static" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Debug" type="PythonConfigurationType" factoryName="Python">
+      <module name="Talent_Link_App" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -51,29 +123,109 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581236476991</updated>
+      <workItem from="1581438369648" duration="76000" />
+      <workItem from="1581856995059" duration="1224000" />
+      <workItem from="1581860353726" duration="4740000" />
+      <workItem from="1581948634775" duration="2902000" />
+      <workItem from="1582033854957" duration="3746000" />
+      <workItem from="1582122786532" duration="2784000" />
+      <workItem from="1582178491784" duration="15563000" />
+      <workItem from="1582270792394" duration="4841000" />
+      <workItem from="1582438679116" duration="12821000" />
+      <workItem from="1582525003342" duration="660000" />
+      <workItem from="1582611205358" duration="13773000" />
+      <workItem from="1582782459328" duration="4264000" />
+      <workItem from="1582869160873" duration="11839000" />
+      <workItem from="1583132852200" duration="12492000" />
+      <workItem from="1583213917681" duration="24830000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Talent-Link" />
+      <path value="$PROJECT_DIR$/Talent_Link" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="254" y="85" width="1092" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581236820316">
+    <state x="254" y="85" width="1092" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581862138665">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="254" y="85" width="1092" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1581236820316" />
+    <state x="254" y="85" width="1092" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1581862138665" />
+    <state x="662" y="182" key="#xdebugger.XInspectDialog" timestamp="1582631285000">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="662" y="182" key="#xdebugger.XInspectDialog/0.0.1600.860@0.0.1600.860" timestamp="1582631285000" />
+    <state width="1053" height="466" key="DebuggerActiveHint" timestamp="1583219542471">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1053" height="466" key="DebuggerActiveHint/0.0.1600.860@0.0.1600.860" timestamp="1583219542471" />
     <state x="534" y="203" key="EnvironmentVariablesDialog" timestamp="1581236774259">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="534" y="203" key="EnvironmentVariablesDialog/0.0.1600.860@0.0.1600.860" timestamp="1581236774259" />
-    <state x="580" y="196" key="FileChooserDialogImpl" timestamp="1581236897003">
+    <state x="580" y="196" key="FileChooserDialogImpl" timestamp="1582037158012">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="196" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1581236897003" />
-    <state x="301" y="72" key="SettingsEditor" timestamp="1581323615954">
+    <state x="580" y="196" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1582037158012" />
+    <state width="1557" height="178" key="GridCell.Tab.0.bottom" timestamp="1583249975986">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="301" y="72" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1581323615954" />
-    <state x="480" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1581344572764">
+    <state width="1557" height="178" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1583249975986" />
+    <state width="1557" height="178" key="GridCell.Tab.0.center" timestamp="1583249975986">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="480" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1581344572764" />
+    <state width="1557" height="178" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1583249975986" />
+    <state width="1557" height="178" key="GridCell.Tab.0.left" timestamp="1583249975986">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="178" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1583249975986" />
+    <state width="1557" height="178" key="GridCell.Tab.0.right" timestamp="1583249975986">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="178" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1583249975986" />
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1583246238680">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1583246238680" />
+    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1583246238680">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1583246238680" />
+    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1583246238680">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1583246238680" />
+    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1583246238680">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1583246238680" />
+    <state x="271" y="88" key="SettingsEditor" timestamp="1582035842003">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="271" y="88" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1582035842003" />
+    <state width="808" height="438" key="XDebugger.FullValuePopup" timestamp="1582634000308">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="808" height="438" key="XDebugger.FullValuePopup/0.0.1600.860@0.0.1600.860" timestamp="1582634000308" />
+    <state x="509" y="169" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1581862417340">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="509" y="169" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1600.860@0.0.1600.860" timestamp="1581862417340" />
+    <state x="410" y="215" key="com.intellij.ide.util.TipDialog" timestamp="1583213918295">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="410" y="215" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583213918295" />
+    <state x="480" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1583132856476" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1581437083090">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1581437083090" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Talent_Link_App$Debug.coverage" NAME="Debug Coverage Results" MODIFIED="1583249975977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
